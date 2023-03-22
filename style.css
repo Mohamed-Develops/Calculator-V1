@@ -1,0 +1,96 @@
+/* Keyframe Animations */
+
+/* General */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgba(80, 130, 236, 0.892);
+}
+
+/* Calc */
+.calc-container {
+	height: 83vh;
+	width: 24.4vw;
+	background: linear-gradient(to right, rgb(1, 29, 47), rgb(2, 36, 58));
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.subnumhold {
+	background: linear-gradient(
+		to right,
+		rgb(21, 25, 32),
+		rgb(25, 30, 37),
+		rgb(29, 35, 44)
+	);
+	height: 6vh;
+	width: 100%;
+	color: whitesmoke;
+	display: inline-block;
+	justify-content: flex-end;
+	overflow-x: auto;
+	font-size: 17px;
+	padding: 5px;
+}
+
+.mainnumhold {
+	background: linear-gradient(
+		to right,
+		rgb(21, 25, 32),
+		rgb(25, 30, 37),
+		rgb(29, 35, 44)
+	);
+	height: 16vh;
+	width: 100%;
+	color: whitesmoke;
+	font-size: 33px;
+	padding: 5px;
+	overflow: auto;
+	display: inline-block;
+	justify-content: flex-end;
+	overflow: auto;
+	padding-top: 10%;
+}
+
+button {
+	height: 8.7vh;
+	width: 6.1vw;
+	background: linear-gradient(to right, rgb(104, 79, 153), mediumpurple);
+	border: 3px solid black;
+	cursor: pointer;
+	color: whitesmoke;
+	font-size: 17px;
+}
+
+.memory {
+	background: linear-gradient(to right, rgb(0, 76, 111), rgb(0, 106, 155));
+}
+
+.essentials {
+	background: linear-gradient(to right, rgb(0, 96, 94), rgb(0, 136, 134));
+}
+
+.operators {
+	background: linear-gradient(to right, rgb(0, 96, 94), rgb(0, 136, 134));
+}
+
+.pi {
+	background: linear-gradient(to right, rgb(0, 96, 94), rgb(0, 136, 134));
+}
+
+.reciprocal {
+	background: linear-gradient(to right, rgb(0, 96, 94), rgb(0, 136, 134));
+}
+
+button:hover {
+	opacity: 0.5;
+}
